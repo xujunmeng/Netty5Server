@@ -1,11 +1,12 @@
 package 第九课自定义序列化协议之自定义序列化协议.com.cn;
 
+import 第九课自定义序列化协议之自定义序列化协议.com.cn.core.Serializer;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import com.cn.core.Serializer;
 
-public class Player extends Serializer{
+public class Player extends Serializer {
 	
 	private long playerId;
 	

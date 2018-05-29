@@ -1,6 +1,7 @@
 package 第九课自定义序列化协议之自定义序列化协议.com.cn;
 
-import com.cn.core.Serializer;
+
+import 第九课自定义序列化协议之自定义序列化协议.com.cn.core.Serializer;
 
 public class Resource extends Serializer {
 	
