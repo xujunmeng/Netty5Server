@@ -48,12 +48,12 @@ public final class PlayerModule {
     
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.proto.PlayerModule.internal_static_PBPlayer_descriptor;
+      return PlayerModule.internal_static_PBPlayer_descriptor;
     }
     
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.proto.PlayerModule.internal_static_PBPlayer_fieldAccessorTable;
+      return PlayerModule.internal_static_PBPlayer_fieldAccessorTable;
     }
     
     private int bitField0_;
@@ -207,41 +207,41 @@ public final class PlayerModule {
       return super.writeReplace();
     }
     
-    public static com.proto.PlayerModule.PBPlayer parseFrom(
+    public static PBPlayer parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data).buildParsed();
     }
-    public static com.proto.PlayerModule.PBPlayer parseFrom(
+    public static PBPlayer parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data, extensionRegistry)
                .buildParsed();
     }
-    public static com.proto.PlayerModule.PBPlayer parseFrom(byte[] data)
+    public static PBPlayer parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data).buildParsed();
     }
-    public static com.proto.PlayerModule.PBPlayer parseFrom(
+    public static PBPlayer parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data, extensionRegistry)
                .buildParsed();
     }
-    public static com.proto.PlayerModule.PBPlayer parseFrom(java.io.InputStream input)
+    public static PBPlayer parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input).buildParsed();
     }
-    public static com.proto.PlayerModule.PBPlayer parseFrom(
+    public static PBPlayer parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input, extensionRegistry)
                .buildParsed();
     }
-    public static com.proto.PlayerModule.PBPlayer parseDelimitedFrom(java.io.InputStream input)
+    public static PBPlayer parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       Builder builder = newBuilder();
       if (builder.mergeDelimitedFrom(input)) {
@@ -250,7 +250,7 @@ public final class PlayerModule {
         return null;
       }
     }
-    public static com.proto.PlayerModule.PBPlayer parseDelimitedFrom(
+    public static PBPlayer parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -261,12 +261,12 @@ public final class PlayerModule {
         return null;
       }
     }
-    public static com.proto.PlayerModule.PBPlayer parseFrom(
+    public static PBPlayer parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input).buildParsed();
     }
-    public static com.proto.PlayerModule.PBPlayer parseFrom(
+    public static PBPlayer parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -276,28 +276,28 @@ public final class PlayerModule {
     
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(com.proto.PlayerModule.PBPlayer prototype) {
+    public static Builder newBuilder(PBPlayer prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
     
     @Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements com.proto.PlayerModule.PBPlayerOrBuilder {
+       implements PBPlayerOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.proto.PlayerModule.internal_static_PBPlayer_descriptor;
+        return PlayerModule.internal_static_PBPlayer_descriptor;
       }
       
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.proto.PlayerModule.internal_static_PBPlayer_fieldAccessorTable;
+        return PlayerModule.internal_static_PBPlayer_fieldAccessorTable;
       }
       
       // Construct using com.proto.PlayerModule.PBPlayer.newBuilder()
@@ -336,24 +336,24 @@ public final class PlayerModule {
       
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.proto.PlayerModule.PBPlayer.getDescriptor();
+        return PBPlayer.getDescriptor();
       }
       
-      public com.proto.PlayerModule.PBPlayer getDefaultInstanceForType() {
-        return com.proto.PlayerModule.PBPlayer.getDefaultInstance();
+      public PBPlayer getDefaultInstanceForType() {
+        return PBPlayer.getDefaultInstance();
       }
       
-      public com.proto.PlayerModule.PBPlayer build() {
-        com.proto.PlayerModule.PBPlayer result = buildPartial();
+      public PBPlayer build() {
+        PBPlayer result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
       
-      private com.proto.PlayerModule.PBPlayer buildParsed()
+      private PBPlayer buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
-        com.proto.PlayerModule.PBPlayer result = buildPartial();
+        PBPlayer result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(
             result).asInvalidProtocolBufferException();
@@ -361,8 +361,8 @@ public final class PlayerModule {
         return result;
       }
       
-      public com.proto.PlayerModule.PBPlayer buildPartial() {
-        com.proto.PlayerModule.PBPlayer result = new com.proto.PlayerModule.PBPlayer(this);
+      public PBPlayer buildPartial() {
+        PBPlayer result = new PBPlayer(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
@@ -388,16 +388,16 @@ public final class PlayerModule {
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.proto.PlayerModule.PBPlayer) {
-          return mergeFrom((com.proto.PlayerModule.PBPlayer)other);
+        if (other instanceof PBPlayer) {
+          return mergeFrom((PBPlayer)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
       
-      public Builder mergeFrom(com.proto.PlayerModule.PBPlayer other) {
-        if (other == com.proto.PlayerModule.PBPlayer.getDefaultInstance()) return this;
+      public Builder mergeFrom(PBPlayer other) {
+        if (other == PBPlayer.getDefaultInstance()) return this;
         if (other.hasPlayerId()) {
           setPlayerId(other.getPlayerId());
         }
@@ -660,12 +660,12 @@ public final class PlayerModule {
     
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.proto.PlayerModule.internal_static_PBResource_descriptor;
+      return PlayerModule.internal_static_PBResource_descriptor;
     }
     
-    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+    protected FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.proto.PlayerModule.internal_static_PBResource_fieldAccessorTable;
+      return PlayerModule.internal_static_PBResource_fieldAccessorTable;
     }
     
     private int bitField0_;
@@ -748,41 +748,41 @@ public final class PlayerModule {
       return super.writeReplace();
     }
     
-    public static com.proto.PlayerModule.PBResource parseFrom(
+    public static PBResource parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data).buildParsed();
     }
-    public static com.proto.PlayerModule.PBResource parseFrom(
+    public static PBResource parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data, extensionRegistry)
                .buildParsed();
     }
-    public static com.proto.PlayerModule.PBResource parseFrom(byte[] data)
+    public static PBResource parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data).buildParsed();
     }
-    public static com.proto.PlayerModule.PBResource parseFrom(
+    public static PBResource parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return newBuilder().mergeFrom(data, extensionRegistry)
                .buildParsed();
     }
-    public static com.proto.PlayerModule.PBResource parseFrom(java.io.InputStream input)
+    public static PBResource parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input).buildParsed();
     }
-    public static com.proto.PlayerModule.PBResource parseFrom(
+    public static PBResource parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input, extensionRegistry)
                .buildParsed();
     }
-    public static com.proto.PlayerModule.PBResource parseDelimitedFrom(java.io.InputStream input)
+    public static PBResource parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       Builder builder = newBuilder();
       if (builder.mergeDelimitedFrom(input)) {
@@ -791,7 +791,7 @@ public final class PlayerModule {
         return null;
       }
     }
-    public static com.proto.PlayerModule.PBResource parseDelimitedFrom(
+    public static PBResource parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -802,12 +802,12 @@ public final class PlayerModule {
         return null;
       }
     }
-    public static com.proto.PlayerModule.PBResource parseFrom(
+    public static PBResource parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return newBuilder().mergeFrom(input).buildParsed();
     }
-    public static com.proto.PlayerModule.PBResource parseFrom(
+    public static PBResource parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -817,28 +817,28 @@ public final class PlayerModule {
     
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(com.proto.PlayerModule.PBResource prototype) {
+    public static Builder newBuilder(PBResource prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
     
     @Override
     protected Builder newBuilderForType(
-        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements com.proto.PlayerModule.PBResourceOrBuilder {
+       implements PBResourceOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.proto.PlayerModule.internal_static_PBResource_descriptor;
+        return PlayerModule.internal_static_PBResource_descriptor;
       }
       
-      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      protected FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.proto.PlayerModule.internal_static_PBResource_fieldAccessorTable;
+        return PlayerModule.internal_static_PBResource_fieldAccessorTable;
       }
       
       // Construct using com.proto.PlayerModule.PBResource.newBuilder()
@@ -873,24 +873,24 @@ public final class PlayerModule {
       
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.proto.PlayerModule.PBResource.getDescriptor();
+        return PBResource.getDescriptor();
       }
       
-      public com.proto.PlayerModule.PBResource getDefaultInstanceForType() {
-        return com.proto.PlayerModule.PBResource.getDefaultInstance();
+      public PBResource getDefaultInstanceForType() {
+        return PBResource.getDefaultInstance();
       }
       
-      public com.proto.PlayerModule.PBResource build() {
-        com.proto.PlayerModule.PBResource result = buildPartial();
+      public PBResource build() {
+        PBResource result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
       
-      private com.proto.PlayerModule.PBResource buildParsed()
+      private PBResource buildParsed()
           throws com.google.protobuf.InvalidProtocolBufferException {
-        com.proto.PlayerModule.PBResource result = buildPartial();
+        PBResource result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(
             result).asInvalidProtocolBufferException();
@@ -898,8 +898,8 @@ public final class PlayerModule {
         return result;
       }
       
-      public com.proto.PlayerModule.PBResource buildPartial() {
-        com.proto.PlayerModule.PBResource result = new com.proto.PlayerModule.PBResource(this);
+      public PBResource buildPartial() {
+        PBResource result = new PBResource(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
@@ -916,16 +916,16 @@ public final class PlayerModule {
       }
       
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.proto.PlayerModule.PBResource) {
-          return mergeFrom((com.proto.PlayerModule.PBResource)other);
+        if (other instanceof PBResource) {
+          return mergeFrom((PBResource)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
       
-      public Builder mergeFrom(com.proto.PlayerModule.PBResource other) {
-        if (other == com.proto.PlayerModule.PBResource.getDefaultInstance()) return this;
+      public Builder mergeFrom(PBResource other) {
+        if (other == PBResource.getDefaultInstance()) return this;
         if (other.hasGold()) {
           setGold(other.getGold());
         }
@@ -1076,16 +1076,16 @@ public final class PlayerModule {
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_PBPlayer_descriptor,
               new String[] { "PlayerId", "Age", "Name", "Skills", },
-              com.proto.PlayerModule.PBPlayer.class,
-              com.proto.PlayerModule.PBPlayer.Builder.class);
+              PBPlayer.class,
+              PBPlayer.Builder.class);
           internal_static_PBResource_descriptor =
             getDescriptor().getMessageTypes().get(1);
           internal_static_PBResource_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_PBResource_descriptor,
               new String[] { "Gold", "Energy", },
-              com.proto.PlayerModule.PBResource.class,
-              com.proto.PlayerModule.PBResource.Builder.class);
+              PBResource.class,
+              PBResource.Builder.class);
           return null;
         }
       };
