@@ -13,8 +13,9 @@ public class ServerHandler extends SimpleChannelInboundHandler<String> {
 	protected void messageReceived(ChannelHandlerContext ctx, String msg) throws Exception {
 
 		System.out.println(msg);
-		
-		ctx.channel().writeAndFlush("hi");
+
+		//两种方式，返回客户端信息
+		//ctx.channel().writeAndFlush("hi");
 		ctx.writeAndFlush("hi");
 	}
 
